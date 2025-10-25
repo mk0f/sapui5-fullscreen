@@ -61,7 +61,9 @@
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
           "bundleName": "student.com.sap.training.advancedsapui5.fullscreen.i18n.i18n",
-          "supportedLocales": ["en"],
+          "supportedLocales": [
+            "en"
+          ],
           "fallbackLocale": "en"
         }
       },
@@ -89,7 +91,9 @@
         "clearControlAggregation": false,
         "transition": "slide",
         "bypassed": {
-          "target": ["notFound"]
+          "target": [
+            "notFound"
+          ]
         }
       },
       "routes": [
@@ -105,7 +109,9 @@
           "pattern": "carriers/{carrid}",
           "titleTarget": "",
           "greedy": false,
-          "target": ["flights"]
+          "target": [
+            "flights"
+          ]
         }
       ],
       "targets": {
